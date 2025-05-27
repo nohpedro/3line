@@ -1,7 +1,6 @@
 import tkinter as tk
 from game_ui import TicTacToeGUI  # asume que existe game_ui.py con la clase de la UI del juego
 
-# Estilos retro-pixel
 BG_COLOR = "#000000"
 FG_COLOR = "#00FF00"
 FONT_TITLE = ("Courier", 48, "bold")

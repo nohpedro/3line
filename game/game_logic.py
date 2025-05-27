@@ -21,8 +21,7 @@ class TicTacToe:
             return f"{self.current_player} wins"
         if self._is_draw():
             self.winner = "Draw"
-            return "Draw"
-
+            return "Draw"  
         self.current_player = "O" if self.current_player == "X" else "X"
         return "Continue"
 
@@ -47,3 +46,4 @@ class TicTacToe:
 
     def _is_draw(self) -> bool:
         return all(cell != "" for row in self.board for cell in row)
+    
