@@ -23,7 +23,7 @@ class TicTacToe:
             self.winner = "Draw"
             return "Draw"
 
-        self.current_player = "O" if self.current_player == "X" else "X"
+        self.current_player = "O" if self.current_player == "X" else "O"
         return "Continue"
 
     def _check_winner(self, row: int, col: int) -> bool:
