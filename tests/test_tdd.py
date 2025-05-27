@@ -3,6 +3,7 @@
 import unittest
 from game.game_logic import TicTacToe
 
+
 class TestTDDTicTacToe(unittest.TestCase):
     def setUp(self):
         self.game = TicTacToe()
